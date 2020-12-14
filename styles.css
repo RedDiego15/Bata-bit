@@ -279,7 +279,258 @@ main tables
 }
 .commission-table--date {
     background-color: var(--soft-blue);
+}
+/*
+Seccion main-product-detail
+*/
+
+.main-product-detail{
+    position: relative;
+    background-color: var(--black);
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 2rem 1rem;
+}
+.main-product-detail .batata-logo{
+    background-image: url("./assets/icons/batata.svg");
+    width: 4rem;
+    height: 2.4rem;
+    position: absolute;
+    left: calc(50% - 20px);
+    top:-13px
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--just-white);
+    line-height: 2.6rem;
 
 }
+.product-detail--title p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-weight: 500;
+    color: #808080;
+    line-height: 1.8rem;
 
+}
+/*
+.product-cards--container{
+    display: flex;
+    flex-direction: column;
+    color:var(--warm-black);
+    height: auto;
+    position: relative;
+    width: 100%;
+}*/
+.product-detail-card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 15rem;
+    margin: 1.5rem auto;
+    background-color: var(--warm-black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 1.5rem;
+}
+.product-detail-card .product-card-img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product-detail-card .product--card-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+.product-detail-card .product--card-body{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+    font-weight: 500;
 
+}
+.product-detail-card .clock{
+    background-image: url('./assets/icons/clock.svg');
+}
+.product-detail-card .eye{
+    background-image: url('./assets/icons/eye.svg');
+}
+.product-detail-card .dollar{
+    background-image: url('./assets/icons/dollar-sign.svg');
+}
+.product-detail-card .check{
+    background-image: url('./assets/icons/check-circle.svg');
+}
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin-img-container h2{
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+}
+/*
+main plan
+*/
+.main-plans-container{
+    width: 100%;
+    min-height: 54.7rem;
+    padding-top: 7.5rem;
+}
+.main-plan__title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.main-plan__title h2{
+    color: var(--black);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+
+}
+.main-plan__title p{
+    color: #757575;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    padding: 0 2rem;
+}
+.plans-container--slider{
+    display: flex;
+    height: 31.6rem;
+    overflow-x: scroll; /*para dar el scroll*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+.plans-container--slider::-webkit-scrollbar{
+    height: 0.8rem;
+    scroll-snap-align: center;
+}
+.plans-container--slider::-webkit-scrollbar-track{
+    display: none;
+}
+.plans-container--slider::-webkit-scrollbar-track:active{
+    background-color:rgba(254, 162, 93, 0.4);
+    display: inline-block;
+} 
+.plans-container--slider::-webkit-scrollbar-thumb{
+    background-color: var(--bitcoin-orange);
+    border-radius: 4px;
+}
+
+.plans-container--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 25rem;
+    margin: 5rem 2rem 0;
+    padding: 0 1.5rem;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16);
+    text-align: center;
+}
+.plans-container--card .recommended{
+    padding: 1rem;
+    min-width: 15rem;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 8px;
+    left: calc(50% - 70px );
+    bottom: 23.3rem;
+    
+}
+.plans-container--card .plan-info-container{
+    padding-top: 4rem;
+
+}
+.plan-info-container .plan-card--tile{
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.plan-info-container .plan-card--price{
+    font-size: 6rem;
+    line-height: 6.3rem;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: -0.2rem;
+}
+.plan-card--price span{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #363636;
+    vertical-align: text-top;
+    margin-right: 0.5rem;
+
+}
+.plan-info-container .plan-card--saving{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 0 1.5rem;
+    color:#757575;
+    margin-bottom: 2rem;
+}
+.plan-info-container .plan-card--ca{
+    border: 2px solid #F7931A;
+    min-width: 141px;
+    width: 1.5rem;
+    min-height: 5rem;
+    border-radius: 4px;
+    color:var(--black);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.plan-card--ca span{
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    vertical-align: text-bottom;
+}
