@@ -1,0 +1,16 @@
+.header--title-container .header--button{
+    left: calc(50% - 160px);
+    width: 35rem;
+    font-size: 1.6rem;
+}
+.product-cards--container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.product-detail-card{
+    max-width: 360px;
+}
+.plans-container--slider{
+    justify-content: center;
+    
+}

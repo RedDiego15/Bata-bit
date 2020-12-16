@@ -122,7 +122,7 @@ picture img{
     width: 13px;
     height: 8px;
     margin-left: 1rem;
-    background-image:url('./assets/icons/down-arrow-Vector.svg');
+    background-image:url('../assets/icons/down-arrow-Vector.svg');
     background-position: center;
 }
 
@@ -147,7 +147,7 @@ Section  exchange
     height: 20rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    background-image: url('./assets/img/Bitcoin.svg');
+    background-image: url('../assets/img/Bitcoin.svg');
     background-size: cover;
     background-position: center; /*para siempre tener 
     visibilidad del centro de la imagen*/
@@ -177,7 +177,7 @@ main tables
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     min-width: 235px;
-    max-width: 50rem;
+    max-width: 60rem;
     min-height: 36rem;
     margin: 0 auto;
 }
@@ -278,7 +278,7 @@ main tables
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/trending-down.svg');
+    background-image: url('../assets/icons/trending-down.svg');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -288,7 +288,7 @@ main tables
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/trending-up.svg');
+    background-image: url('../assets/icons/trending-up.svg');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@ Seccion main-product-detail
     padding: 2rem 1rem;
 }
 .main-product-detail .batata-logo{
-    background-image: url("./assets/icons/batata.svg");
+    background-image: url("../assets/icons/batata.svg");
     width: 4rem;
     height: 2.4rem;
     position: absolute;
@@ -395,23 +395,23 @@ Seccion main-product-detail
 
 }
 .product-detail-card .clock{
-    background-image: url('./assets/icons/clock.svg');
+    background-image: url('../assets/icons/clock.svg');
 }
 .product-detail-card .eye{
-    background-image: url('./assets/icons/eye.svg');
+    background-image: url('../assets/icons/eye.svg');
 }
 .product-detail-card .dollar{
-    background-image: url('./assets/icons/dollar-sign.svg');
+    background-image: url('../assets/icons/dollar-sign.svg');
 }
 .product-detail-card .check{
-    background-image: url('./assets/icons/check-circle.svg');
+    background-image: url('../assets/icons/check-circle.svg');
 }
 
 .bitcoin-img-container{
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/img/bitcoinbaby2x.jpg');
+    background-image: url('../assets/img/bitcoinbaby2x.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -461,6 +461,7 @@ main plan
     overflow-x: scroll; /*para dar el scroll*/
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    justify-content: center
 }
 
 .plans-container--slider::-webkit-scrollbar{
@@ -556,7 +557,7 @@ main plan
     padding: 1rem;
 }
 .plan-card--ca span{
-    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-image: url('../assets/icons/orange-right-arrow.svg');
     display: inline-block;
     width: 2rem;
     height: 2rem;
@@ -605,7 +606,7 @@ FOOTER
 }
 .footer-logo span{
     position: absolute;
-    background-image: url('./assets/img/logo-footer.svg');
+    background-image: url('../assets/img/logo-footer.svg');
     width: 5.5rem;
     height: 3.5rem;
     background-repeat: no-repeat;
