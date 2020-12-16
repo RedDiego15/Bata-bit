@@ -461,12 +461,12 @@ main plan
     overflow-x: scroll; /*para dar el scroll*/
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    justify-content: center
+    scroll-snap-align: center;
+    
 }
 
 .plans-container--slider::-webkit-scrollbar{
     height: 0.8rem;
-    scroll-snap-align: center;
 }
 .plans-container--slider::-webkit-scrollbar-track{
     display: none;
@@ -509,10 +509,16 @@ main plan
     bottom: 23.3rem;
     
 }
+.plans-container--card .plan__basic{
+    background-color: blue;
+}
 .plans-container--card .plan-info-container{
     padding-top: 4rem;
-
 }
+.plans-container--card .plan__vip{
+    background-color: #654062;
+}
+
 .plan-info-container .plan-card--tile{
     color: black;
     font-size: 1.4rem;
